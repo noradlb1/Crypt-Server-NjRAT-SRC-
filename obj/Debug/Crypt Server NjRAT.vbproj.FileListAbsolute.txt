@@ -1,0 +1,10 @@
+c:\users\killua zoldek\documents\visual studio 2012\Projects\Crypt Server NjRAT\Crypt Server NjRAT\obj\Debug\Crypt_Server_NjRAT.Form1.resources
+c:\users\killua zoldek\documents\visual studio 2012\Projects\Crypt Server NjRAT\Crypt Server NjRAT\obj\Debug\Crypt_Server_NjRAT.Resources.resources
+c:\users\killua zoldek\documents\visual studio 2012\Projects\Crypt Server NjRAT\Crypt Server NjRAT\obj\Debug\Crypt Server NjRAT.vbproj.GenerateResource.Cache
+c:\users\killua zoldek\documents\visual studio 2012\Projects\Crypt Server NjRAT\Crypt Server NjRAT\bin\Debug\Crypt Server NjRAT.exe.config
+c:\users\killua zoldek\documents\visual studio 2012\Projects\Crypt Server NjRAT\Crypt Server NjRAT\bin\Debug\Crypt Server NjRAT.exe
+c:\users\killua zoldek\documents\visual studio 2012\Projects\Crypt Server NjRAT\Crypt Server NjRAT\bin\Debug\Crypt Server NjRAT.pdb
+c:\users\killua zoldek\documents\visual studio 2012\Projects\Crypt Server NjRAT\Crypt Server NjRAT\bin\Debug\Crypt Server NjRAT.xml
+c:\users\killua zoldek\documents\visual studio 2012\Projects\Crypt Server NjRAT\Crypt Server NjRAT\obj\Debug\Crypt Server NjRAT.exe
+c:\users\killua zoldek\documents\visual studio 2012\Projects\Crypt Server NjRAT\Crypt Server NjRAT\obj\Debug\Crypt Server NjRAT.xml
+c:\users\killua zoldek\documents\visual studio 2012\Projects\Crypt Server NjRAT\Crypt Server NjRAT\obj\Debug\Crypt Server NjRAT.pdb

